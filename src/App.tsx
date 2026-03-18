@@ -55,11 +55,11 @@ function App() {
   const getStatusColor = (status: string) => {
     switch (status) {
       case "active":
-        return "#dcfce7"; // green-100
+        return "#dcfce7"; 
       case "pending":
-        return "#fef9c3"; // yellow-100
+        return "#fef9c3";
       case "inactive":
-        return "#fee2e2"; // red-100
+        return "#fee2e2";
       default:
         return "#f3f4f6";
     }
@@ -68,11 +68,11 @@ function App() {
   const getStatusTextColor = (status: string) => {
     switch (status) {
       case "active":
-        return "#166534"; // green-800
+        return "#166534"; 
       case "pending":
-        return "#854d0e"; // yellow-800
+        return "#854d0e"; 
       case "inactive":
-        return "#991b1b"; // red-800
+        return "#991b1b"; 
       default:
         return "#374151";
     }
